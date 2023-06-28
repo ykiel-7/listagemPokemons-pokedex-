@@ -1,0 +1,30 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #f6f8fc;
+}
+
+.content {
+    padding: 1rem;
+    background-image: url('https://cdn.pixabay.com/photo/2016/08/17/13/49/pokemon-1600481_1280.jpg');
+    image-rendering: auto;
+    background-image: ;
+    width: 100vh;
+    height: 100vh;
+
+}
+
+
+@media screen and (min-width: 992px){
+    .content{
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
+
+
